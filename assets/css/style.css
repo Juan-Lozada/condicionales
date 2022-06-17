@@ -5,10 +5,12 @@ body {
 
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 4vh;
     width: 100%;
+    gap: 15vh;
 }
 
 .imagen {
@@ -21,4 +23,27 @@ body {
 
 .imagen:hover {
     box-shadow: 2px 2px 2px 2px black;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #1363df;
+    padding: 3vh;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.button:hover{
+    box-shadow: 1px 1px 1px black;
+    background-color: #1363ff;
+    cursor: pointer;
+    color: azure;
 }
